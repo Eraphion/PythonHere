@@ -5,7 +5,8 @@ language: python
 python: 3.6
 script:
 - if [ 35 -gt 10 ]
-   then;
-   true
-   echo 123
+   then
+      echo 123
+   else
+      echo 246
 - fi
