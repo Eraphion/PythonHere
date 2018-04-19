@@ -1,12 +1,13 @@
-class Printer:
-    def __init__(self, _str):
-        self.str = _str
-
-    def print(self):
-        for i in self.str:
-            print(i)
-
-
-if __name__ == "__main__":
-    p = Printer("Printer vasily number 112.3")
-    p.print()
+notifications:
+email: false
+language: python
+python: 3.6
+script:
+- errors=`find . -name "*.py" -exec flake8 --max-line-length=120 \;`
+- |
+    if [ -z "$errors" ]; then
+        true
+    else
+        echo "$errors"
+        false
+    fi
