@@ -3,7 +3,7 @@ email: false
 language: python
 python: 3.6
 script:
-- errors=`find . -name "*.py" -exec flake8 --max-line-length=120 --ignore=E225,F841 \;` 
+- errors=`find . -name "*.py" -exec flake8 --max-line-length=120 --ignore=F841 \;` 
 - |
     if [ -z "$errors" ]
     then
