@@ -5,6 +5,6 @@ language: python
 python: 3.6
 script:
 - if [ 35 -gt 35 ] 
-    then 
-        echo yeah
+then 
+echo yeah
 - fi
