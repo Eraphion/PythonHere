@@ -6,7 +6,7 @@ python: 3.6
 script:
  if [ 35 == 35 ] 
  then 
-  echo yeah
+  echo "yeah"
  else
-  echo not yeah
+  echo "not yeah"
  fi
