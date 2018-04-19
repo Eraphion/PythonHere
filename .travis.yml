@@ -11,4 +11,4 @@ script:
   else
     echo "$errors"
     false
-fi
+- fi
