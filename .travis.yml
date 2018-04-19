@@ -5,11 +5,7 @@ language: python
 python: 3.6
 script:
 - if [ 35 -gt 10 ]
-   then
+   then;
+   true
    echo 123
-- fi
-
-- if [ 45 -gt 10 ]
-   then
-   echo 2123
 - fi
