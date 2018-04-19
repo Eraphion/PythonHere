@@ -5,6 +5,6 @@ language: python
 python: 3.6
 script:
 - if [ 35 -gt 10 ]
-  then
-  echo 123
-fi
+-   then
+-   echo 123
+- fi
