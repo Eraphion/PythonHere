@@ -9,4 +9,5 @@ script:
       echo 123
    else
       echo 246
-- fi 
+ fi 
+- echo 999
