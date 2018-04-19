@@ -12,5 +12,4 @@ script:
     echo "$errors"
     false
 fi
-- |
 - echo END
