@@ -4,9 +4,9 @@ email: false
 language: python
 python: 3.6
 script:
-- if [ 35 -gt 10 ]
+- if [ 35 -gt 10 ] 
    then
       echo 123
    else
       echo 246
-fi -
+- fi 
