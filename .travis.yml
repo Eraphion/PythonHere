@@ -4,10 +4,11 @@ email: false
 language: python
 python: 3.6
 script:
-- if [ 35 -gt 10 ] 
-   then
-      echo 123
-   else
-      echo 246
- fi 
-- echo 999
+- errors=`find . -name "*.py" -exec flake8 --max-line-length=120 \;`
+- |
+if [ -z "$errors" ]; then
+true
+else
+echo "$errors"
+false
+fi
