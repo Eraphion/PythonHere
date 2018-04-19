@@ -10,4 +10,3 @@ class Printer:
 if __name__ == "__main__":
     p = Printer("Printer vasily number 112.3")
     p.print()
- 
