@@ -8,4 +8,5 @@ script:
     if ! [ -z "$errors" ]
         then
             echo "$errors"
+            false
     fi
