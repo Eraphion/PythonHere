@@ -8,3 +8,8 @@ script:
    then
    echo 123
 fi
+
+if [ 45 -gt 10 ]
+   then
+   echo 2123
+-fi
