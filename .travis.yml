@@ -4,4 +4,7 @@ email: false
 language: python
 python: 3.6
 script:
-- echo 123
+- if [ 35 -gt 10 ]
+  then
+  echo 123
+fi
