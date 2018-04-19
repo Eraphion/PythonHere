@@ -4,7 +4,7 @@ email: false
 language: python
 python: 3.6
 script:
-- if [ 35 == 35 ] 
+ if [ 35 == 35 ] 
  then 
  echo yeah
  fi
