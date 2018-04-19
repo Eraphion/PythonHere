@@ -7,9 +7,9 @@ script:
 - if [ 35 -gt 10 ]
    then
    echo 123
-fi
+- fi
 
-if [ 45 -gt 10 ]
+- if [ 45 -gt 10 ]
    then
    echo 2123
 - fi
