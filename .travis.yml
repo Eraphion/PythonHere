@@ -7,8 +7,8 @@ script:
 - |
     if [ -z "$errors" ] 
     then
-        true
+        false
     else
         echo "$errors"
-        false
+        true
     fi
