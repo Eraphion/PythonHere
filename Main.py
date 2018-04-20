@@ -4,7 +4,6 @@ class Printer:
 
     def print(self):
         for i in self.str:
-            b = 2 +3
             print(i)
 
 
