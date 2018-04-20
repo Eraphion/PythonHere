@@ -3,11 +3,11 @@ email: false
 language: python
 python: 3.6
 script:
-    if [ 35 == 36 ] 
-    then 
+- errors=`find . -name "*.py" -exec flake8 --max-line-length=120 \;`
+- |
+    if [ -z "$errors" ]; then
         true
-        echo "IT IS TRUE"
     else
+        echo "$errors"
         false
-        echo "IT IS FALSE"
-     fi
+    fi
